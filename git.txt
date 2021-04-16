@@ -1,0 +1,94 @@
+$ git config --global user.name "vidya"  #Double Quote required
+$ git config --global user.email     #No double quote for email ID
+#Check if the settings got picked up correctly
+$ git config --list
+ pwd
+    6  mkdir traning
+    7  cd traning/
+    8  pwd
+    9  mkdir devops
+   10  cd devops/
+   11  git init
+   12  ls
+   13  notepad b.txt
+   14  ls
+   15  git status
+   16  git add .
+   17  git status
+   18  git commit -m "test"
+   19  git status
+   20  git log
+
+
+git remote add origin https://github.com/vidhyavenugopal/devops.git
+git remote -v
+git push -u origin main
+
+ssh-keygen -t rsa -C vidya725@gmail.com
+login to github settings->ssh->new ssh keys
+ssh -T git@github.com
+type:yes
+
+
+
+mkdir Blogs
+git init
+notepad input.txt
+git status
+git add .
+git commit -m "fc"
+git status git log
+git push -u origin main
+
+send collabravite invite to user2
+
+user2 aftre receiving invite - 
+clone
+inside traning folder
+ git clone git@github.com:vidhyavenugopal/project_training.git
+
+
+now user1 and 2 create 
+1.txt and 2.txt same time in blog file
+commit and push
+
+
+
+Brach:
+
+mkdir branch-demo
+git init
+touch a.txt b.txt
+git add .
+git commit -m "barnch-commit"
+git log --oneline [get the commit id]
+
+
+git [branch-name]
+git log --oneline [ now it points to head (head is something present dir]
+
+to goto the brach
+
+git checkout [branch-name]
+git log --online
+touch c.txt g.txt
+git add .
+git commit -m "quick branch commit"
+[here we can see 4 files]
+
+gitcheckout master
+ls
+oly 2 files will be thr
+
+
+to merge 2 merges
+
+git merge quick[branchname]
+now master branch will also have 4 files
+git branch -D quick [to delete branch]
+
+
+
+ ngrok.exe http 80
+http://53da18fe4a55.ngrok.io/github-webhook/
+
